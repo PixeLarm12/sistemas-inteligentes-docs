@@ -11,4 +11,4 @@ def iterative_deepening_dfs(graph, start, goal, max_depth):
     return False
 
 # Exemplo de uso:
-print(iterative_deepening_dfs(graph, 'A', 'E', 3))  # Saída: True
+# print(iterative_deepening_dfs(graph, 'A', 'E', 3))  # Saída: True

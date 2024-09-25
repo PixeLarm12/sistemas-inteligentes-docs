@@ -19,6 +19,6 @@ def dfs(graph, start, goal, visited=None):
     return False
 
 # Exemplo de uso:
-graph = {'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': [], 'F': []}
-print(dfs(graph, 'A', 'E'))  # Saída: True
+# graph = {'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': [], 'F': []}
+# print(dfs(graph, 'A', 'E'))  # Saída: True
 

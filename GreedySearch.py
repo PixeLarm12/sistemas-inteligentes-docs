@@ -17,6 +17,6 @@ def greedy_search(graph, start, goal, heuristic):
     return False
 
 # Exemplo de uso:
-heuristic = {'A': 3, 'B': 2, 'C': 4, 'D': 6, 'E': 0, 'F': 5}  # Heurísticas estimadas para cada nó
-print(greedy_search(graph, 'A', 'E', heuristic))  # Saída: True
+# heuristic = {'A': 3, 'B': 2, 'C': 4, 'D': 6, 'E': 0, 'F': 5}  # Heurísticas estimadas para cada nó
+# print(greedy_search(graph, 'A', 'E', heuristic))  # Saída: True
 

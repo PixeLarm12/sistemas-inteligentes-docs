@@ -19,4 +19,4 @@ def bfs(graph, start, goal):
     return False
 
 # Exemplo de uso:
-print(bfs(graph, 'A', 'E'))  # Saída: True
+# print(bfs(graph, 'A', 'E'))  # Saída: True

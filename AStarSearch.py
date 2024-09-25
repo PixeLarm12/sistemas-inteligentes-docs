@@ -22,6 +22,6 @@ def a_star(graph, start, goal, heuristic, cost):
     return False
 
 # Exemplo de uso:
-cost = {('A', 'B'): 1, ('A', 'C'): 2, ('B', 'D'): 3, ('B', 'E'): 1, ('C', 'F'): 4}
-print(a_star(graph, 'A', 'E', heuristic, cost))  # Saída: True
+# cost = {('A', 'B'): 1, ('A', 'C'): 2, ('B', 'D'): 3, ('B', 'E'): 1, ('C', 'F'): 4}
+# print(a_star(graph, 'A', 'E', heuristic, cost))  # Saída: True
 

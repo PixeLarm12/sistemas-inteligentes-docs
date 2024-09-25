@@ -15,4 +15,4 @@ def dfs_limited(graph, start, goal, limit, depth=0):
     return False
 
 # Exemplo de uso:
-print(dfs_limited(graph, 'A', 'E', 2))  # Saída: True
+# print(dfs_limited(graph, 'A', 'E', 2))  # Saída: True
