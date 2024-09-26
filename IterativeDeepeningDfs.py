@@ -9,6 +9,3 @@ def iterative_deepening_dfs(graph, start, goal, max_depth):
         if dfs_limited(graph, start, goal, depth):  # Chama a DFS limitada
             return True
     return False
-
-# Exemplo de uso:
-# print(iterative_deepening_dfs(graph, 'A', 'E', 3))  # Saída: True

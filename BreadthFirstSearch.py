@@ -17,6 +17,3 @@ def bfs(graph, start, goal):
                 visited.add(neighbor)  # Marca como visitado
                 queue.append(neighbor)  # Adiciona o vizinho à fila
     return False
-
-# Exemplo de uso:
-# print(bfs(graph, 'A', 'E'))  # Saída: True

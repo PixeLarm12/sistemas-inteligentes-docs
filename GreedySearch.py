@@ -15,8 +15,3 @@ def greedy_search(graph, start, goal, heuristic):
                 queue.append((neighbor, heuristic[neighbor]))  # Adiciona o vizinho à fila
         queue.sort(key=lambda x: x[1])  # Ordena a fila pela heurística
     return False
-
-# Exemplo de uso:
-# heuristic = {'A': 3, 'B': 2, 'C': 4, 'D': 6, 'E': 0, 'F': 5}  # Heurísticas estimadas para cada nó
-# print(greedy_search(graph, 'A', 'E', heuristic))  # Saída: True
-
